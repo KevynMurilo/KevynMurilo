@@ -1,12 +1,11 @@
 ### Olá, sou o Kevyn Murilo 👋
 
 ![KevynMurilo GitHub stats](https://github-readme-stats.vercel.app/api?username=KevynMurilo&show_icons=true&theme=dracula)
+
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KevynMurilo&layout=compact)](https://github.com/KevynMurilo/github-readme-stats)
 
 ![KevynMurilo GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=KevynMurilo&theme=dracula)
 
-## Contribuições no GitHub
-![KevynMurilo GitHub Contribution Graph](https://activity-graph.herokuapp.com/graph?username=KevynMurilo&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true)
 
 ## Tecnologias que eu uso no meu dia a dia
 <div style="display: inline_block"><br/>
