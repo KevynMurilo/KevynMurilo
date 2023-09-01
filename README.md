@@ -1,7 +1,12 @@
 ### Olá, sou o Kevyn Murilo 👋
 
 ![KevynMurilo GitHub stats](https://github-readme-stats.vercel.app/api?username=KevynMurilo&show_icons=true&theme=dracula)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KevynMurilo)](https://github.com/KevynMurilo/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KevynMurilo&layout=compact)](https://github.com/KevynMurilo/github-readme-stats)
+
+![KevynMurilo GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=KevynMurilo&theme=dracula)
+
+## Contribuições no GitHub
+![KevynMurilo GitHub Contribution Graph](https://activity-graph.herokuapp.com/graph?username=KevynMurilo&bg_color=0D1117&color=5BCDEC&line=5BCDEC&point=FFFFFF&hide_border=true)
 
 ## Tecnologias que eu uso no meu dia a dia
 <div style="display: inline_block"><br/>
@@ -15,3 +20,13 @@
 </div>
 
 ### Apaixonado por tecnologia e por transformar ideias em realidade!
+
+## Projetos Destacados
+- [PetShop](https://github.com/KevynMurilo/PetShop): Este é um projeto de um website para um pet shop fictício. O site foi desenvolvido utilizando HTML, CSS e JavaScript para criar uma interface interativa e responsiva.
+- [Churrascaria](https://github.com/KevynMurilo/ChurrascariaHtmlCss): Este é um modelo de site desenvolvido pensando em uma churrascaria, foi utilizado HTML, CSS e JavaScript.
+- [Portfolio](https://github.com/KevynMurilo/Portfolio): Este é um modelo de site de portfólio, criado para fins de demonstração e prática. O site apresenta um design simples e elegante, exibindo seções como Início, Sobre, Habilidades, Portfólio e Contato.
+
+## Contato
+- [LinkedIn](https://www.linkedin.com/in/kevyn-murilo-4b738b285/)
+- [Instagram](https://www.instagram.com/Kevyn_Murilo/)
+- [Email](kevynmurilo2017@gmail.com)
