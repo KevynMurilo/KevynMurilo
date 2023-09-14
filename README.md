@@ -25,7 +25,8 @@
 - [Churrascaria](https://github.com/KevynMurilo/ChurrascariaHtmlCss): Este é um modelo de site desenvolvido pensando em uma churrascaria, foi utilizado HTML, CSS e JavaScript.
 - [Portfolio](https://github.com/KevynMurilo/Portfolio): Este é um modelo de site de portfólio, criado para fins de demonstração e prática. O site apresenta um design simples e elegante, exibindo seções como Início, Sobre, Habilidades, Portfólio e Contato.
 -
-[AlcoolOuGasolina](https://github.com/KevynMurilo/AlcoolOuGasolina):
+[AlcoolOuGasolina](https://github.com/KevynMurilo/AlcoolOuGasolina): Este é um aplicativo simples desenvolvido em React Native que ajuda os usuários a determinar se é mais vantajoso abastecer com álcool ou gasolina com base nos preços informados.
+
 ## Contato
 - [LinkedIn](https://www.linkedin.com/in/kevyn-murilo-4b738b285/)
 - [Instagram](https://www.instagram.com/Kevyn_Murilo/)
