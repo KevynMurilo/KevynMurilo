@@ -35,9 +35,11 @@
 <img align="center" alt="REACT-NATIVE" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 <img align="center" alt="CSHARP" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/> 
 <img align="center" alt="FIREBASE" src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white"/>
-</div>
+</div>&nbsp;
    
-<img src="https://github.com/KevynMurilo/KevynMurilo/assets/132490286/b12c94ce-821c-4942-9ef7-98c110b24668" width="100%" height="8px" />
+<img src="https://github.com/KevynMurilo/KevynMurilo/assets/132490286/b12c94ce-821c-4942-9ef7-98c110b24668" width="100%" height="8px" />&nbsp;
+
+<h1>Minhas Contribuições </h1>
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KevynMurilo&theme=dracula)](https://github.com/KevynMurilo/github-readme-stats)
 ![KevynMurilo GitHub stats](https://github-readme-stats.vercel.app/api?username=KevynMurilo&show_icons=true&theme=dracula)
