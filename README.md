@@ -35,6 +35,7 @@
 <img align="center" alt="REACT-NATIVE" src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"/>
 <img align="center" alt="CSHARP" src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white"/> 
 <img align="center" alt="FIREBASE" src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white"/>
+<img align="center" alt="EXPRESS" src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white"/>
 </div>&nbsp;
    
 <img src="https://github.com/KevynMurilo/KevynMurilo/assets/132490286/b12c94ce-821c-4942-9ef7-98c110b24668" width="100%" height="8px" />&nbsp;
