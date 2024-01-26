@@ -18,8 +18,10 @@
 
 ## 📕 Projetos Fixados!
 
-- [PetShop](https://github.com/KevynMurilo/PetShop): Este é um modelo de website para um pet shop fictício. O site foi desenvolvido utilizando HTML, CSS e JavaScript para criar uma interface responsiva. 
-- [Churrascaria](https://github.com/KevynMurilo/ChurrascariaHtmlCss): Este é um modelo de site desenvolvido pensando em uma churrascaria, foi utilizado HTML, CSS e JavaScript.
+- [book-manager-api](https://github.com/KevynMurilo/book-manager-api):A book-manager-api é um projeto para gerenciar uma livraria, oferecendo operações CRUD para autores e livros, com tratamento de erros incorporado nos middlewares. O código utiliza o mongoose para interação com o banco de dados MongoDB e apresenta um manipulador eficiente para lidar com diferentes tipos de erros, garantindo uma experiência consistente..
+  
+- [CashControl API](https://github.com/KevynMurilo/CashControl-API): CashControl API é uma api projetada para auxiliar os usuários no gerenciamento de suas finanças. Esta aplicação oferece funcionalidades como criação de usuários, autenticação, registro de transações financeiras e consulta de saldo. Os dados dos usuários são armazenados localmente usando SQLite
+
 - [book-manager-api](https://github.com/KevynMurilo/book-manager-api): API para gerenciar uma livraria virtual, permitindo a criação, listagem e remoção de livros. Desenvolvida com Node.js, Express.js e MongoDB.
 - [FinancasPessoais](https://github.com/KevynMurilo/AppFinancas): Este é um aplicativo desenvolvido em React Native para gerenciar suas finanças pessoais. Ele inclui funcionalidades de login, cadastro, visualização de saldo, registro de entradas e saídas, além de um filtro para facilitar a análise dos seus registros.
 
