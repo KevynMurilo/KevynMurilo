@@ -18,11 +18,11 @@
 
 ## 📕 Projetos Fixados!
 
-- [book-manager-api](https://github.com/KevynMurilo/book-manager-api):A book-manager-api é um projeto para gerenciar uma livraria, oferecendo operações CRUD para autores e livros, com tratamento de erros incorporado nos middlewares. O código utiliza o mongoose para interação com o banco de dados MongoDB e apresenta um manipulador eficiente para lidar com diferentes tipos de erros, garantindo uma experiência consistente..
+- [microservice_prontuario_fisio](https://github.com/KevynMurilo/microservice_prontuario_fisio): O código fornecido implementa um módulo abrangente de gerenciamento de prontuários médicos (ProntuarioModule) em uma aplicação NestJS. O módulo lida com operações relacionadas à criação, recuperação e gestão de prontuários de pacientes. Ele integra vários submódulos como Anamnese, ExamesFisicos, Objetivo e Condutas.
   
 - [CashControl API](https://github.com/KevynMurilo/CashControl-API): CashControl API é uma api projetada para auxiliar os usuários no gerenciamento de suas finanças. Esta aplicação oferece funcionalidades como criação de usuários, autenticação, registro de transações financeiras e consulta de saldo. Os dados dos usuários são armazenados localmente usando SQLite
 
-- [FinancasPessoais](https://github.com/KevynMurilo/AppFinancas): Este é um aplicativo desenvolvido em React Native para gerenciar suas finanças pessoais. Ele inclui funcionalidades de login, cadastro, visualização de saldo, registro de entradas e saídas, além de um filtro para facilitar a análise dos seus registros.
+- [VerifyEmailAPI](https://github.com/KevynMurilo/api_projetos): A VerifyEmailAPI é uma API robusta desenvolvida com NestJS para backend, que utiliza nodemailer para o envio de e-mails de verificação durante o registro de novos usuários. A segurança é uma prioridade, com a criptografia de senhas realizada pelo bcrypt. Esta API garante que os e-mails fornecidos pelos usuários sejam válidos antes da conclusão do registro, melhorando a integridade e a segurança do sistema de autenticação.
 
 <img src="https://github.com/KevynMurilo/KevynMurilo/assets/132490286/b12c94ce-821c-4942-9ef7-98c110b24668" width="100%" height="8px"/>
 
