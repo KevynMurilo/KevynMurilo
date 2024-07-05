@@ -1,6 +1,13 @@
-<p align="center">
-  <img src="https://github.com/KevynMurilo/KevynMurilo/assets/132490286/e4f45d67-3363-4653-afc8-5a28da840613" alt="banner profile" />
-</p>
+<img src="https://github.com/KevynMurilo/KevynMurilo/assets/132490286/f3fd25f8-bae4-459c-ba7e-9af3c6deb5b2" width="100%" height="auto" alt="api" />
+
+
+
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake-dark.svg">
+  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake.svg" width="100%" height="auto">
+</picture>
+
 
 <p align="center">
 	<a href="mailto:kevynmurilo2017@gmail.com">
