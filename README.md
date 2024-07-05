@@ -1,14 +1,5 @@
 <img src="https://github.com/KevynMurilo/KevynMurilo/assets/132490286/f3fd25f8-bae4-459c-ba7e-9af3c6deb5b2" width="100%" height="auto" alt="api" />
 
-
-
-<picture align="center">
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake-dark.svg">
-  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake.svg" width="100%" height="auto">
-</picture>
-
-
 <p align="center">
 	<a href="mailto:kevynmurilo2017@gmail.com">
 		<img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
@@ -54,6 +45,12 @@
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=KevynMurilo&theme=dracula)](https://github.com/KevynMurilo/github-readme-stats)
 ![KevynMurilo GitHub stats](https://github-readme-stats.vercel.app/api?username=KevynMurilo&show_icons=true&theme=dracula)
+
+<picture align="center">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake-dark.svg">
+  <img align="center" alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake.svg" width="100%" height="auto">
+</picture>
 
 
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=150&width=100%&section=footer" width="100%"/>
