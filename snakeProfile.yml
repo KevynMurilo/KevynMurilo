@@ -1,0 +1,142 @@
+import React, { useState } from 'react';
+import { useProdutos } from '../../context/produtos';
+import { Produto, ProdutoInput } from '../../interfaces/produto.interface';
+import Sidebar from '../../components/Sidebar';
+
+const ProdutosPage: React.FC = () => {
+  const { produtos, loading, error, createProduto, updateProduto, deleteProduto } = useProdutos();
+  const [newProduto, setNewProduto] = useState<ProdutoInput>({ nome: '', descricao: '', preco: 0 });
+  const [editProdutoId, setEditProdutoId] = useState<number | null>(null);
+  const [editProduto, setEditProduto] = useState<Produto>({ id: 0, nome: '', descricao: '', preco: 0 });
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    if (name === 'preco') {
+      const preco = value !== '' ? parseFloat(value) : 0;
+      setNewProduto({ ...newProduto, [name]: preco });
+    } else {
+      setNewProduto({ ...newProduto, [name]: value });
+    }
+  };
+  
+  const handleEditChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+    const { name, value } = e.target;
+    if (name === 'preco') {
+      const preco = value !== '' ? parseFloat(value) : 0;
+      setEditProduto({ ...editProduto, [name]: preco });
+    } else {
+      setEditProduto({ ...editProduto, [name]: value });
+    }
+  };
+
+  const handleCreate = async () => {
+    await createProduto(newProduto);
+    setNewProduto({ nome: '', descricao: '', preco: 0 });
+  };
+
+  const handleEdit = (produto: Produto) => {
+    setEditProdutoId(produto.id);
+    setEditProduto(produto);
+  };
+
+  const handleSave = async () => {
+    await updateProduto(editProduto);
+    setEditProdutoId(null);
+  };
+
+  const handleDelete = async (id: number) => {
+    await deleteProduto(id);
+  };
+
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error: {error.message}</p>;
+
+  return (
+    <div className="p-6 bg-gray-100 min-h-screen">
+    <Sidebar/>
+      <div className="max-w-4xl mx-auto bg-white shadow-md rounded-lg p-6">
+        <h1 className="text-3xl font-bold mb-6 text-center">Gerenciamento de Produtos</h1>
+        
+        <div className="mb-8">
+          <h2 className="text-xl font-semibold mb-4">Adicionar Produto</h2>
+          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <input
+              type="text"
+              name="nome"
+              value={newProduto.nome}
+              onChange={handleInputChange}
+              placeholder="Nome"
+              className="border rounded p-2"
+            />
+            <input
+              type="text"
+              name="descricao"
+              value={newProduto.descricao}
+              onChange={handleInputChange}
+              placeholder="Descrição"
+              className="border rounded p-2"
+            />
+            <input
+              type="number"
+              step="0.01"
+              name="preco"
+              value={newProduto.preco}
+              onChange={handleInputChange}
+              placeholder="Preço"
+              className="border rounded p-2"
+            />
+            <button onClick={handleCreate} className="bg-blue-500 text-white rounded p-2 hover:bg-blue-600">Adicionar</button>
+          </div>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-semibold mb-4">Lista de Produtos</h2>
+          {produtos.map((produto) => (
+            <div key={produto.id} className="mb-4 p-4 border rounded shadow-sm bg-white">
+              {editProdutoId === produto.id ? (
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+                  <input
+                    type="text"
+                    name="nome"
+                    value={editProduto.nome}
+                    onChange={handleEditChange}
+                    className="border rounded p-2"
+                  />
+                  <input
+                    type="text"
+                    name="descricao"
+                    value={editProduto.descricao}
+                    onChange={handleEditChange}
+                    className="border rounded p-2"
+                  />
+                  <input
+                    type="number"
+                    step="0.01"
+                    name="preco"
+                    value={editProduto.preco}
+                    onChange={handleEditChange}
+                    className="border rounded p-2"
+                  />
+                  <button onClick={handleSave} className="bg-green-500 text-white rounded p-2 hover:bg-green-600">Salvar</button>
+                  <button onClick={() => setEditProdutoId(null)} className="bg-gray-500 text-white rounded p-2 hover:bg-gray-600">Cancelar</button>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 items-center">
+                  <p className="text-lg font-medium">{produto.nome}</p>
+                  <p>{produto.descricao}</p>
+                  <p>{produto.preco}</p>
+                  <div className="flex space-x-2">
+                    <button onClick={() => handleEdit(produto)} className="bg-yellow-500 text-white rounded p-2 hover:bg-yellow-600">Editar</button>
+                    <button onClick={() => handleDelete(produto.id)} className="bg-red-500 text-white rounded p-2 hover:bg-red-600">Deletar</button>
+                  </div>
+                </div>
+              )}
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default ProdutosPage;
