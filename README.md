@@ -43,8 +43,8 @@
 
 <h1>Minhas Contribuições </h1>
 
+![KevynMurilo Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KevynMurilo&theme=dracula&show_icons=true&hidelayout=compact)
 ![KevynMurilo GitHub stats](https://github-readme-stats.vercel.app/api?username=KevynMurilo&show_icons=true&theme=dracula)
-![KevynMurilo Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=KevynMurilo&theme=dracula&show_icons=true&hide_border=true&layout=compact)
 
 <picture align="center">
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KevynMurilo/KevynMurilo/output/github-contribution-grid-snake-dark.svg">
