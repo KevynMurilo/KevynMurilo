@@ -16,11 +16,9 @@
 
 ## 📕 Projetos Fixados!
 
-- [microservice_prontuario_fisio](https://github.com/KevynMurilo/microservice_prontuario_fisio): O código fornecido implementa um módulo abrangente de gerenciamento de prontuários médicos (ProntuarioModule) em uma aplicação NestJS. O módulo lida com operações relacionadas à criação, recuperação e gestão de prontuários de pacientes. Ele integra vários submódulos como Anamnese, ExamesFisicos, Objetivo e Condutas.
+- [System.Pdv](https://github.com/KevynMurilo/System.Pdv.git): Este sistema foi desenvolvido para facilitar o gerenciamento de pedidos em estabelecimentos como hamburguerias e pizzarias. Ele permite o controle de mesas, clientes, produtos, categorias, métodos de pagamento, além de integrar com impressoras térmicas para impressão de pedidos. O sistema também oferece controle de acesso baseado em roles, com permissões configuráveis para diferentes tipos de usuários.
   
-- [CashControl API](https://github.com/KevynMurilo/CashControl-API): CashControl API é uma api projetada para auxiliar os usuários no gerenciamento de suas finanças. Esta aplicação oferece funcionalidades como criação de usuários, autenticação, registro de transações financeiras e consulta de saldo. Os dados dos usuários são armazenados localmente usando SQLite
-
-- [VerifyEmailAPI](https://github.com/KevynMurilo/api_projetos): A VerifyEmailAPI é uma API robusta desenvolvida com NestJS para backend, que utiliza nodemailer para o envio de e-mails de verificação durante o registro de novos usuários. A segurança é uma prioridade, com a criptografia de senhas realizada pelo bcrypt. Esta API garante que os e-mails fornecidos pelos usuários sejam válidos antes da conclusão do registro, melhorando a integridade e a segurança do sistema de autenticação.
+- [Secure-user-management](https://github.com/KevynMurilo/secure-user-management.git): Este projeto é um sistema completo de gerenciamento de usuários, desenvolvido com NestJS, implementando autenticação, gerenciamento de permissões, envio de e-mails, e criptografia de senhas. Foi projetado com foco na escalabilidade, segurança e modularidade.
 
 <img src="https://github.com/KevynMurilo/KevynMurilo/assets/132490286/b12c94ce-821c-4942-9ef7-98c110b24668" width="100%" height="8px"/>
 
